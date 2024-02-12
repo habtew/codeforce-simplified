@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: greenyellow;
+}
+
+.nav--main { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+.user--profile {
+    display: flex;
+    align-items: center;
+}
+
+.user--profile .user--profile--name {
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+.problems{
+    background: green;
+}
