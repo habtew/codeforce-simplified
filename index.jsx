@@ -10,7 +10,7 @@ function App() {
         <div className="nav--main">
           <div className="user--profile">
             <Link className="site-logo user--profile" to="/">
-              <img src="./images/favicon-32x32.png" className="user--profile--image" />
+              <img src="/images/favicon-32x32.png" className="user--profile--image" />
               <p className="user--profile--name">habtew</p>
             </Link>
           </div>
