@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Problems from '/components/problems'
 
 function App() {
   return (
     <BrowserRouter>
       <header >
-        <div className="nav--main">
+        <div className="nav--main main">
           <div className="user--profile">
             <Link className="site-logo user--profile" to="/">
               <img src="/images/favicon-32x32.png" className="user--profile--image" />

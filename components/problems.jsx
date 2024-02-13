@@ -1,8 +1,8 @@
 export default function Problems(){
     return (
-        <div className="problems--main">
+        <div className="problems--main main">
             <div className="filter-problems">
-                <ul>
+                <ul className="filter-problems--header">
                     <li>
                         array 322
                     </li>
@@ -25,47 +25,22 @@ export default function Problems(){
             </div>
             
             <div className="problems--table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>status</th>
-                            <th>title</th>
-                            <th>acceptance</th>
-                            <th>difficulty</th>
-                            <th>total solved</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>+</td>
-                            <td>sort array in ascending order</td>
-                            <td>78%</td>
-                            <td>easy</td>
-                            <td>435453</td>
-                        </tr>
-                        <tr>
-                            <td>+</td>
-                            <td>sort array in ascending order</td>
-                            <td>78%</td>
-                            <td>easy</td>
-                            <td>435453</td>
-                        </tr>
-                        <tr>
-                            <td>+</td>
-                            <td>sort array in ascending order</td>
-                            <td>78%</td>
-                            <td>easy</td>
-                            <td>435453</td>
-                        </tr>
-                        <tr>
-                            <td>+</td>
-                            <td>sort array in ascending order</td>
-                            <td>78%</td>
-                            <td>easy</td>
-                            <td>435453</td>
-                        </tr>
-                    </tbody>
-                </table>
+                    <div className="problems--table--head">
+                        <div>status</div>
+                        <div>title</div>
+                        <div>acceptance</div>
+                        <div>difficulty</div>
+                        <div>total solved</div>
+                    </div>
+                    <div className="problems--table--body">
+                        <div>
+                            <div>+</div>
+                            <div>sort array in ascending order</div>
+                            <div>78%</div>
+                            <div>easy</div>
+                            <div>435453</div>
+                        </div>
+                    </div>
             </div>
         </div>
     )
