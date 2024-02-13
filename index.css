@@ -1,4 +1,7 @@
 /* general style */
+* {
+  box-sizing: border-box;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -103,33 +106,37 @@ header {
     cursor: pointer;
   }
   
+  
   .problems--table {
     width: 100%;
     margin-top: 20px;
+    text-align: left;
   }
   
   .problems--table--head {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     justify-content: space-between;
-    border-bottom: 1px solid #ddd; /* Add a border between header and body */
+    align-items: center; /* Align items to the center vertically */
+    border-bottom: 1px solid #ddd;
     padding: 10px 0;
-    font-weight: bold;
+    font-weight: bold;    
+    padding: 10px 10px; 
+    /* margin-left: 20px; */
   }
   
   .problems--table--body > div {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     justify-content: space-between;
-    border-bottom: 1px solid #ddd; /* Add a border between rows */
-    padding: 10px 0;
-  }
-  
-  .problems--table--body > div:hover {
-    background-color: #f5f5f5; /* Add a background color on hover */
+    align-items: center; /* Align items to the center vertically */
+    border-bottom: 1px solid #ddd;
+    border: 1px solid black;
+    padding: 10px 10px;
   }
   
   .problems--table--body > div > div {
     flex: 1;
-    text-align: center;
   }
   
   .problems--table--body > div > div:first-child {

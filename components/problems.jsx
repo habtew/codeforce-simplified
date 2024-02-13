@@ -1,4 +1,5 @@
 export default function Problems(){
+    console.log("hello")
     return (
         <div className="problems--main main">
             <div className="filter-problems">
@@ -23,7 +24,7 @@ export default function Problems(){
                     <input type="text" placeholder="search" />
                 </div>
             </div>
-            
+        
             <div className="problems--table">
                     <div className="problems--table--head">
                         <div>status</div>
@@ -31,6 +32,15 @@ export default function Problems(){
                         <div>acceptance</div>
                         <div>difficulty</div>
                         <div>total solved</div>
+                    </div>
+                    <div className="problems--table--body">
+                        <div>
+                            <div>+</div>
+                            <div>sort array in ascending order</div>
+                            <div>78%</div>
+                            <div>easy</div>
+                            <div>435453</div>
+                        </div>
                     </div>
                     <div className="problems--table--body">
                         <div>
